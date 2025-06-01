@@ -55,3 +55,9 @@ para pintá-la, sabendo que cada litro de tinta, pinta uma
 - [Desafio 012:](ex012.py)<br>
 Faça um algoritmo que leia o preço de um produto e mostre 
 seu novo preço, com 5% de desconto.
+
+- [Desafio 013:](ex013.py)<br>
+Faça um algoritmo que leia  o salário  de um funcionário 
+e mostre  seu novo salário, com 15% de aumento.
+
+
