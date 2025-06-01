@@ -47,7 +47,7 @@ na carteria e mostre quantos Dólares ela pode comprar.
 
 
 - [Desafio 011:](ex011.py)<br>
-Façaum programa que leia a largura e a altura de uma parede
+Faça um programa que leia a largura e a altura de uma parede
 em metros, calcule a sua área e a quantidade de tinta nescessária
 para pintá-la, sabendo que cada litro de tinta, pinta uma 
 área de 2m2.
