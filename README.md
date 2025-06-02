@@ -60,4 +60,40 @@ seu novo preço, com 5% de desconto.
 Faça um algoritmo que leia  o salário  de um funcionário 
 e mostre  seu novo salário, com 15% de aumento.
 
+- [Desafio 014:](ex014.py)<br>
+Escreva um programa que converta uma temperatura digitada em °C 
+e converta para °F
 
+- [Desafio 015:](ex015.py)<br>
+Escreva um programa que pergunta quantidade de km percorridos por um 
+carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço
+a pagar, sabendo que o carro custa R\$60 por dia e R$0,15 por km rodado.
+
+- [Desafio 016:](ex016.py)<br>
+Crie um programa que leia um número Real qualquer pelo teclado e mostre na
+tela a sua porção Inteira.
+<br>
+Ex.: 
+    > Digite um número: 6.127 <br>
+    > O número 6.127 tem a parte Inteira 6.
+
+- [Desafio 017:](ex017.py)<br>
+Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente
+de um triângulo retângulo. Calcule e mostre o comprimento da hipotenusa.
+
+- [Desafio 018:](ex018.py)<br>
+Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno,
+cosseno e tangente desse ângulo.
+
+- [Desafio 019:](ex019.py)<br>
+Um professor quer sortear um dos seus quatro alunos  poara apagar o quadro. Faça
+um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido. 
+
+- [Desafio 020:](ex020.py)<br>
+O mesmo professor do desafio anterior quer sortear a ordem de apresentação de 
+trabalhos dos alunos.
+<br>Faça um programa que leia o nomedos quatros alunos e mostre a ordem 
+sorteada.
+
+- [Desafio 021:](ex021.py)<br>
+Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3.
