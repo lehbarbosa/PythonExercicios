@@ -86,13 +86,12 @@ Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno,
 cosseno e tangente desse ângulo.
 
 - [Desafio 019:](ex019.py)<br>
-Um professor quer sortear um dos seus quatro alunos  poara apagar o quadro. Faça
-um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido. 
+Um professor quer sortear um dos seus quatro alunos  para apagar o quadro. Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido. 
 
 - [Desafio 020:](ex020.py)<br>
 O mesmo professor do desafio anterior quer sortear a ordem de apresentação de 
 trabalhos dos alunos.
-<br>Faça um programa que leia o nomedos quatros alunos e mostre a ordem 
+<br>Faça um programa que leia o nome dos quatros alunos e mostre a ordem 
 sorteada.
 
 - [Desafio 021:](ex021.py)<br>
