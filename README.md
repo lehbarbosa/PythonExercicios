@@ -96,3 +96,7 @@ sorteada.
 
 - [Desafio 021:](ex021.py)<br>
 Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3.
+
+
+
+
