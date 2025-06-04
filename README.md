@@ -97,6 +97,39 @@ sorteada.
 - [Desafio 021:](ex021.py)<br>
 Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3.
 
+- [Desafio 022:](ex022.py)<br>
+Crie um programa que leia o nome completo de uma pessoa e mostre: 
+   > O nome com todas as letras maiúsculas;<br>
+    > O nome com todas minúsculas;<br>
+    > Quantas letras ao todo (sem considerar espaços);<br>
+    > Quantas letras tem o primeiro nome.<br>
 
+- [Desafio 023:](ex023.py)<br>
+Faça um programa que leia um número de *0* a *999* e mostre na tela cada um dos dígitos
+separados.
+Ex.:<br>
+>Digite um número: 1834<br>
+    >unidade: 4<br>
+    >dezena: 3<br>
+    >centena: 8<br>
+    >milhar: 1<br>
 
+- [Desafio 024:](ex024.py)<br>
+Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com 
+o nome "Santo".
 
+- [Desafio 025:](ex025.py)<br>
+Crie um programa que leia nome de uma pessoa e diga se ela tem 'Silva' no nome.
+
+- [Desafio 026:](ex026.py)<br>
+Faça um programa que leia uma frase pelo teclado e mostre:,<br>
+>Qauntas vezes aparece a letra "A"<br>
+>Em que posição ela aparece a primeira vez<br>
+>Em que posição ela aparece a última vez<br>
+
+- [Desafio 027:](ex027.py)<br>
+Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida
+o primeiro e o segundo nome separadamente.<br>
+>Ex.: Ana Maria de Sozua
+>primeiro: Ana
+>último: Souza
