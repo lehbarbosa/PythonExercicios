@@ -1,3 +1,6 @@
+# Desenvolva um programa que leia as duas notas de um aluno,
+# e mostre sua média.
+
 nota1 = float(input('Informe a primeiro nota: '))
 nota2 = float(input('Informe a segunda nota: '))
 
