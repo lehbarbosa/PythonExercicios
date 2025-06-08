@@ -1,14 +1,14 @@
 # Faça um programa que leia uma frase pelo teclado e mostre:
-# >Qauntas vezes aparece a letra "A"
+# >Quantas vezes aparece a letra "A"
 # >Em que posição ela aparece a primeira vez
 # >Em que posição ela aparece a última vez
 
-palavra = str(input('Digite uma frase: ')).lower()
+palavra = str(input('Digite uma frase: ')).lower().strip()
 
 letra_a = palavra.count('a')
 primeira_vez = palavra.find('a')    
 segunda_vez = palavra.rfind('a') 
 
 print('\nA letra "A ou a" aparece {} vezes  na frase'.format(letra_a))
-print('\nA primeira vez que a letra "A ou a" aparece é {}º posição'.format(primeira_vez))
-print('\nA última vez que a letra "A ou a" aparece é {}º posição'.format(segunda_vez)) 
+print('A primeira vez que a letra "A ou a" aparece é {} posição'.format((primeira_vez) + 1))
+print('A última vez que a letra "A ou a" aparece é {} posição'.format((segunda_vez) + 1))
