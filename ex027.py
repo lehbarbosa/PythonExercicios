@@ -7,6 +7,6 @@
 
 nome = str(input('Digite o nome completo: ')).split()
 
-print('Pazer em te conhcer!')
+print('Prazer em te conhcer!')
 print('Seu primeiro nome é {}'.format(nome[0]))
 print('Seu segundo nome é {}'.format(nome[-1]))
