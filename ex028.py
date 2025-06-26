@@ -6,12 +6,18 @@
 import random
 import time
 
-num_pc = random.randint(0, 5)
+num_pc = random.randint(0, 5) # Faz o computador 'Pensar
+
+print('-=-' * 20)
 print('Vou pensar num número entre 0 e 5 tente adivinhar...')
-time.sleep(1)
-num_usuario = int(input('Em que número estou pensando? '))
+print('-=-' * 20)
+
+num_usuario = int(input('Em que número estou pensando? ')) # Jogador tenta adivinhar
+
 print('Processando...')
-time.sleep(1)
+
+time.sleep(3)
+
 if num_usuario == num_pc:
     print(f"PARABÉNS! Você venceu pensei no número {num_pc}")
 else:
