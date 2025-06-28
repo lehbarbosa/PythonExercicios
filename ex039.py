@@ -9,9 +9,9 @@ jovem e informe, de acordo com sua idade:
 Seu programa também deverá mostrar o tempo que 
 falta ou que passou do prazo.
 """
-from datetime import date
-ano_atual = date.today().year
-# ano_atual = 2017 # Referencia ano do vídeo 
+# from datetime import date
+# ano_atual = date.today().year
+ano_atual = 2017 # Referencia ano do vídeo 
 ano_de_nascimento = int(input('Digite o ano de nascimento: '))
 idade = ano_atual - ano_de_nascimento
 

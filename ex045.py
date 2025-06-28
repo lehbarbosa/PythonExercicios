@@ -3,18 +3,21 @@ Crie um programa que faça o computador jogar
 JOKENPÔ com você.
 """
 from time import sleep
-from random import choice
-opcao_pc = choice(['Pedra', 'Papel', 'Tesoura'])
+from random import randint
+item = ('Pedra', 'Papel', 'Tesoura')
+computador = randint(0, 2)
+escolha_pc = item[computador]
 
 print('=-=' * 20)
 print(f'{"Vamos Jogar JOKENPÔ":^50}')
 print('=-=' * 20)
 
 print("""Escolha uma opção:
-[ 1 ] - Pedra
-[ 2 ] - Papel
-[ 3 ] - Tesoura""")
+[ 0 ] - Pedra
+[ 1 ] - Papel
+[ 2 ] - Tesoura""")
 opcao = int(input('Qual vai ser sua jogada: '))
+escolha_usu = item[opcao]
 
 sleep(1)
 print('JO',  end=' * ')
@@ -23,47 +26,39 @@ print('KEN', end=' * ')
 sleep(1)
 print('PÔ')
 
-# PEDRA
-if opcao == 1:
-    if opcao_pc == 'Pedra':
-        print(f'Escolhe {opcao_pc}.')
-        print('Você escolheu Pedra.')
-        print('Não houve ganhador!')
-    elif opcao_pc == 'Papel':
-        print(f'Escolhe {opcao_pc}.')
-        print('Você escolheu Pedra.')
-        print('Ganhei!')
-    elif opcao_pc == 'Tesoura':
-        print(f'Escolhe {opcao_pc}.')
-        print('Você escolheu Pedra.')
-        print('Você GANHOU! Parabéns.')
+print('-=' * 15)
+print(f'Computador => {item[computador]}.')
+print(f'Usuário => {item[opcao]}.')
+print('-=' * 15)
 
-# PAPEL
-if opcao == 2:
-    if opcao_pc == 'Pedra':
-        print(f'Escolhe {opcao_pc}.')
-        print('Você escolheu Papel.')
-        print('Você GANHOU! Parabéns.')
-    elif opcao_pc == 'Papel':
-        print(f'Escolhe {opcao_pc}.')
-        print('Você escolheu Papel.')
+# PEDRA
+if computador == 0:
+    if opcao == 0:
         print('Não houve ganhador!')
-    elif opcao_pc == 'Tesoura':
-        print(f'Escolhe {opcao_pc}.')
-        print('Você escolheu Pedra.')
-        print('Ganhei!')
+    elif opcao == 1:
+        print('Você Ganhou!')
+    elif opcao == 2:
+        print('Computador Ganhou.')
+    else:
+        print('Jogada inválda!')
+# Papel
+elif computador == 1:
+    if opcao == 0:
+        print('Computador Ganhou!')
+    elif opcao == 1:
+        print('Não houve ganhador!')
+    elif opcao == 2:
+        print('Você ganhou')
+    else:
+        print('Jogada inválda!')
 
 # Tesoura
-if opcao == 3:
-    if opcao_pc == 'Pedra':
-        print(f'Escolhe {opcao_pc}.')
-        print('Você escolheu Tesoura.')
-        print('GANHEI!')
-    elif opcao_pc == 'Papel':
-        print(f'Escolhei {opcao_pc}.')
-        print('Você escolheu Tesoura.')
-        print('Você GANHOU! Parabéns.')
-    elif opcao_pc == 'Tesoura':
-        print(f'Escolhe {opcao_pc}.')
-        print('Você escolheu Tesoura.')
-        print('Não houve ganhador. EMPATE!')
+elif computador == 2:
+    if opcao == 0:
+        print('Você Ganhou!')
+    elif opcao == 1:
+        print('Computador ganhou!')
+    elif opcao == 2:
+        print('Não houve ganhador')
+    else:
+        print('Jogada inválda!')
