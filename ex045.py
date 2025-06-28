@@ -38,7 +38,6 @@ if opcao == 1:
         print('Você escolheu Pedra.')
         print('Você GANHOU! Parabéns.')
 
-
 # PAPEL
 if opcao == 2:
     if opcao_pc == 'Pedra':
