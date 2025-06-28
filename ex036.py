@@ -25,3 +25,4 @@ else:
     print(f'Para um emprétimo de \033[32mR${valor_casa:.2f}\033[m em {ano_parcelado} anos a prestação será de \033[34mR${prestacao_mensal:.2f}\033[m.')
     print('\033[32mEmpréstimo CONCEDIDO!\033[m')
 
+

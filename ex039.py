@@ -10,11 +10,9 @@ Seu programa também deverá mostrar o tempo que
 falta ou que passou do prazo.
 """
 from datetime import date
-
 ano_atual = date.today().year
-
+# ano_atual = 2017 # Referencia ano do vídeo 
 ano_de_nascimento = int(input('Digite o ano de nascimento: '))
-
 idade = ano_atual - ano_de_nascimento
 
 if idade == 18:
@@ -35,3 +33,20 @@ elif idade > 18:
     print(f'Você já deveria ter se alistado há {tempo_para_alistar} anos.')
     print(f'Seu alistamento foi em {ano_do_alistamento}')
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
