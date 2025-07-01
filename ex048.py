@@ -7,6 +7,7 @@ print(f'{"Contagem de Números Ímpares (1 a 500)":^50}')
 print('*' * 50)
 
 for impares in range(1, 501):
-    if (impares % 2 == 1) and (impares / 3 == 0):
-        impar = impares
-        print(f'{impar}', end=' ')
+    if (impares % 2 == 1):
+        if (impares % 3 == 0):
+            impar = impares
+            print(f'{impar}')
