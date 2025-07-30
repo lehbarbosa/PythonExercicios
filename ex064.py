@@ -6,9 +6,7 @@ que é a condição de parada. No final, mostre quantos números
 foram digitados e qual foi o soma entre eles (desconsiderando o flag).
 '''
 print('Para cancelar digite 999')
-num = 0
-totnum = 0
-soma = 0
+num = totnum = soma = 0
 while num != 999:
     num = int(input('Digite um número inteiro '))
     if num == 999:
