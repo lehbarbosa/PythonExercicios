@@ -5,5 +5,6 @@ centímetros e milímetros.
 valor = int(input('Digite o valor em metros: '))
 cent = valor * 100
 mili = valor * 1000
-print('O valor {}m convertido para centímetros é {}cm'.format(valor, cent))
-print('O valor {}m convertido para milímetros é {}mm'.format(valor, mili))
+print("A medida de {}m corresponde a:".format(valor))
+print('{}cm'.format(cent))
+print('{}mm'.format(mili))

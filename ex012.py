@@ -4,4 +4,4 @@ novo preço, com 5% de desconto.
 '''
 valor_produto = float(input('Digite o valor do produto: R$'))
 valor_desconto = valor_produto - (valor_produto * (5 / 100)) 
-print('O total com desconto de 5% fica R${}'.format(valor_desconto))
+print('O produto que custava R${}, na promoção com desconto de 5% vai custa R${:.2f}'.format(valor_produto, valor_desconto))
